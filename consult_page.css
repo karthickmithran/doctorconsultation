@@ -1,0 +1,14 @@
+body
+{
+background-image: linear-gradient(to right top, #60b347, #7bcfbd, #4dbd53, #71c0c0, #4a8b4d);
+}           
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.user_tick
+{
+	width:20px;
+}
