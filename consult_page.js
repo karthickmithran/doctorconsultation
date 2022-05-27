@@ -56,5 +56,6 @@ firebase.database().ref("doctorroom").child(message_id).update({
 
 function logout(){
    localStorage.removeItem("login_name");
+   firebase.database().ref("doctorroom").remove();
    window.location="index.html";
  }
